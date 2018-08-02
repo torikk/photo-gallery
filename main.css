@@ -1,0 +1,132 @@
+.finchBar {
+    background-color: rgba(51, 51, 51, 0.5);
+    color:#fff;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    height:50px;
+    text-align:center;
+}
+
+.finchBar a {
+    color:#ffcc00;
+    text-decoration:underline;
+}
+
+.title h1 {
+    font-size:80px;
+    color:#666;
+    font-family: Herr Von Muellerhoff, sans-serif;
+    text-align:center;
+    padding-top:20px;
+    margin-bottom:-15px;
+    transition:all 3s;
+}
+.title h1:hover {
+    color:#999;
+    transform: scale(1.3, 1.3);
+}
+
+.nav {
+    border-bottom: 2px solid #999;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.nav ul li {
+    list-style-type:none;
+    display:inline;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-style: italic;
+    font-family: Poiret One, serif;
+    color:#999;
+    font-size:20px;
+    transition: all .3s;
+}
+
+.nav ul li a:hover {
+    color:#333;
+    font-weight:bolder;
+    -ms-transform: scale(2, 3); /* IE 9 */
+    -webkit-transform: scale(2, 3); /* Safari */
+}
+
+.nav ul {
+    text-align:center;
+}
+
+.nav ul li {
+    padding-right:50px;
+}
+
+.header {
+    background-image: url(#);
+}
+
+.container {
+    max-width:800px;
+    margin:auto;
+}
+
+.image-grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 200px);
+    padding-bottom:50px;
+}
+
+.contact-me {
+    background-color: #000;
+    color:#fff;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height:50px;
+}
+
+.image-grid div {
+    background-color:#fff;
+}
+
+.image-grid > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:all 1s;
+}
+
+.image-grid div img:hover {
+    background-color: rgba(0,0,0,0.65);
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+}
+
+.header > .container {
+    width: 800px;
+    margin: auto;
+}
+
+.header .container h1 {
+    font-size:35px;
+    color:#666;
+    text-align:center;
+    font-family: Poiret One, serif;
+    padding-top:20px;
+}
+
+.header .container img {
+    margin: auto;
+    height:400px;
+    max-width: 800px;
+    object-fit: cover;
+    padding:50px 0;
+}
